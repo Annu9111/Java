@@ -10,7 +10,8 @@ public class Demo {
 
         //Real numbers
         float f =23.45f;
-        double d = 34.5632;
+        // double d = 34.5632;
+        double d = 6.022e23;
 
         //Characters
         char c = 'a';
