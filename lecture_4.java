@@ -17,5 +17,15 @@ public class lecture_4 {
         h-=2;
         h*=3;
         System.out.println(h);
+
+        //pre increment and post increment
+        int j=7;
+        j++;   //post increment
+        ++j;    //pre increment
+        // j=9
+        int k = j++;  //k=j; j=j+1 ----> k=9
+        System.out.println(j + "," + k);  //10,9
+        int l = ++j;   //j=j+1; l=j;  ----> l=11
+        System.out.println(j + "," +l);  //11,11
     }
 }
