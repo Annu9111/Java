@@ -8,6 +8,21 @@ public class lecture_6 {
         int e=a^b;
         int f= ~a;
         System.out.println(c+","+d+","+e+","+f);
+
+        int g = 1;
+        g=g<<1;
+        System.out.println(g);
+
+        //logical operators--> &&,||
+        int h=5;
+        int i=15;
+        int j=20;
+        boolean k =(h<i)&&(i<j);
+        boolean l =(h<i)||(i<j);
+        System.out.println(k);
+        System.out.println(l);
+
+
          
     }
 }
