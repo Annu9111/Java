@@ -27,7 +27,7 @@ public class lecture_8 {
             System.out.println(l); 
         }
 
-        //comma separated variation
+        //comma separated variation✅
         for(int m=1,n=5;m<=10;m++,n+=5){
             System.out.println(m*n);
         }
@@ -39,7 +39,7 @@ public class lecture_8 {
             }
         }
 
-        //printing star pattern
+        //printing star pattern ✅
         // ⭐️
         // ⭐️⭐️
         // ⭐️⭐️⭐️
@@ -61,6 +61,7 @@ public class lecture_8 {
             System.out.println(z);
         }
 
+        //to check prime. ✅
         boolean is_prime =true;
         int s =7;
         for(int t=2;t<s;t++){
@@ -73,6 +74,13 @@ public class lecture_8 {
             System.out.println("prime");
         }else{
             System.err.println("not a prime");
+        }
+
+        //to print odd numbers. ✅
+        for(int w=1;w<=10;w++){
+            if(w%2!=0){
+                System.out.println(w);
+            }
         }
     }
 }
