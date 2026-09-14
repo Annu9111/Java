@@ -78,7 +78,10 @@ public class lecture_8 {
 
         //to print odd numbers. ✅
         for(int w=1;w<=10;w++){
-            if(w%2!=0){
+            if(w%2==0){
+                continue;
+            }
+            else{
                 System.out.println(w);
             }
         }
