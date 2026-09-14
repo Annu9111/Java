@@ -47,6 +47,10 @@ public class lecture_9 {
             }
         }
 
+        // ⭐️ Strings
+        String name = "Annu";
+        System.err.println(name); 
+
 
     }
 }
