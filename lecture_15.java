@@ -8,7 +8,12 @@ public class lecture_15 {
         System.out.println(s1.name +", "+s1.age +" ,"+s1.rollNo+" ,"+Student.collegeName);
 
         System.out.println(s2.name +", "+s2.age +" ,"+s2.rollNo+" ,"+Student.collegeName);
+
+
+        Random r1 = new Random();
+        System.out.println(r1.PI);
     }
+
 }
 
 class Student{
@@ -22,4 +27,8 @@ class Student{
         this.age = age;
         this.rollNo = rollNo;
     }
+}
+
+class Random{
+    final double PI = 3.14;
 }
