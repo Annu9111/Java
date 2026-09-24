@@ -10,8 +10,21 @@ public class lecture_24 {
         // in.fun();
 
         //local inner
-        outer ot = new outer();
-        ot.greet(); 
+        // outer ot = new outer();
+        // ot.greet(); 
+
+        //Anonymous
+        Person p1 = new Person();
+        p1.introduce();
+
+        Person p2 = new Person(){
+            @Override 
+            void introduce(){
+                System.out.println("hey,i am a guest");
+            }
+        };
+        p2.introduce(); 
+
 
     }
 }
@@ -37,16 +50,30 @@ public class lecture_24 {
 
 
 //local class
-class outer{
-    void greet(){
-        System.out.println("hello there!!");
+// class outer{
+//     void greet(){
+//         System.out.println("hello there!!");
 
-        class Local {
-            void sayHello(){
-                System.out.println("say hello");
-            }
-        }
-        Local lo = new Local();
-        lo.sayHello();
+//         class Local {
+//             void sayHello(){
+//                 System.out.println("say hello");
+//             }
+//         }
+//         Local lo = new Local();
+//         lo.sayHello();
+//     }
+// }
+
+// Anonymous class
+class Person{
+    void introduce(){
+        System.out.println("hey, i am a person");
     }
 }
+
+// class Guest extends Person{
+//     @Override
+//     void introduce(){
+//         System.out.println("hey, i am a guest");
+//     }
+// }
