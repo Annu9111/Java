@@ -8,8 +8,11 @@ public class lecture_26 {
         System.out.println(full_name);
 
         int age = sc.nextInt();
+        System.out.println(age);
         double dou = sc.nextDouble();
+        System.out.println(dou);
         boolean bo = sc.nextBoolean();
+        System.out.println(bo);
         //and so on 
 
 
