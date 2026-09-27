@@ -9,6 +9,8 @@ public class lecture_29 {
         s2.name = "Annu";
         s2.age = 19;
         System.out.println(s1.equals(s2)); 
+
+        System.out.println(s1.hashCode()==s2.hashCode());
     }
 }
 
