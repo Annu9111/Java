@@ -7,6 +7,9 @@ public class lecture_31 {
 
         Direction direction = Direction.valueOf("EAST");
         System.out.println(direction.name());
+        System.out.println(direction.ordinal());
+
+
 
 
     }
