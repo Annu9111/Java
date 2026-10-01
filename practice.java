@@ -6,24 +6,23 @@ public class practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // ArrayList <Integer> list = new ArrayList<>();
+        // int rev=0;
         int n = sc.nextInt();
-        int one=0;
-        int rem=0;
-        while(n>0){
-            rem=n%2;
-            if(rem==1){
-                one+=1;
+        for(int i = 0;i<n;i++){
+            int m=sc.nextInt();
+            if (m==0){
+                System.out.println(0);
+                continue;
             }
-            n/=2;
-        }
-        int dec=0;
-        for(int i=0;i<one;i++){
-            dec+=Math.pow(2,i);
+            while(m>0){
+                int last = m%10;
+                System.out.print(last+" ");
+                m/=10;
+            }
+            System.out.println();
 
         }
-        System.out.println(dec);
-
-        sc.close();
         
+        sc.close();
     }
 }

@@ -18,6 +18,8 @@ public class lecture_33 {
         String s4 = s3 + "world";
         System.out.println(s3==s4); 
 
+        // String s = "";
+
 
     }
 }
