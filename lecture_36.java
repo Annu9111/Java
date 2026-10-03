@@ -12,6 +12,7 @@ public class lecture_36 {
 
 
         pair <String,Integer> p1 = new pair<>("annu", 12);
+        System.out.println(p1);
     }
 }
 
